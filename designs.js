@@ -1,16 +1,13 @@
-// Select color input
-$('#colorPicker').on('click',function colorSelect() {
-  const color = $('#colorPicker').val();
-  $('.color_changing').css("background-color", color);
-});
-
 // When size is submitted by the user, call makeGrid()
 
 $('#submit').on('click',function makeGrid(click) {
   click.preventDefault()
+
+//Erase the previous grid to put in a new grid
   $('#pixel_canvas').find('tr').remove();
   $('#pixel_canvas').find('td').remove();
 
+//create the new grid that is n x m size
   const n = $('#input_height').val();
   const m = $('#input_width').val();
 
@@ -20,9 +17,12 @@ $('#submit').on('click',function makeGrid(click) {
   for (var y = 1; y <= m; y++) {
     $('tr').append('<td></td>')
   }
-  $('td').on('click', function() {
-    $(this).toggleClass("color_changing");
-  } );
-});
 
 //color the canvas when it is clicked
+  $('#colorPicker').on('click',function colorSelect() {
+    $('td').on('click', function() {
+      const color = $('#colorPicker').val();
+      $(this).css("background-color", color);
+    });
+  });
+});

@@ -20,9 +20,9 @@ $('#submit').on('click',function makeGrid(click) {
   for (var y = 1; y <= m; y++) {
     $('tr').append('<td></td>')
   }
+  $('td').on('click', function() {
+    $(this).toggleClass("color_changing");
+  } );
 });
 
 //color the canvas when it is clicked
-$('td').on('click', function() {
-  $(this).toggleClass("color_changing");
-} );

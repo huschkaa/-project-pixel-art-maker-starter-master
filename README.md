@@ -2,8 +2,11 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* [1) Choose grid height and grid width (between 1 and 50 integer).
+   2) Choose color to paint the canvas and click the squares.
+   3) Change color as you would like and finish coloring the canvas.](#instructions)
+
+* [Andrew Huschka](#contributing)
 
 ## Instructions
 

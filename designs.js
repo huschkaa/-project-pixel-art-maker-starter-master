@@ -16,13 +16,12 @@ $('#submit').on('click',function makeGrid(click) {
   }
   for (var y = 1; y <= m; y++) {
     $('tr').append('<td></td>')
+
   }
 
 //color the canvas when it is clicked
-  $('#colorPicker').on('click',function colorSelect() {
-    $('td').on('click', function() {
-      const color = $('#colorPicker').val();
-      $(this).css("background-color", color);
-    });
+  $('td').on('click', function() {
+    const color = $('#colorPicker').val();
+    $(this).css("background-color", color);
   });
 });

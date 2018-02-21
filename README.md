@@ -1,18 +1,19 @@
 # Pixel Art Maker Project
 
-## Table of Contents
+## Install
+```
+Ensure you have moved to a location in your directory where you want to copy the project via, "cd":
 
-*  1) Choose grid height and grid width (between 1 and 50 integer).
-   2) Choose color to paint the canvas and click the squares.
-   3) Change color as you would like and finish coloring the canvas.(#instructions)
-
-* Andrew Huschka(#contributing)
+$ Git Clone https://github.com/huschkaa/Neighborhood-Map-Udacity.git
+```
+Live Version:
+[https://huschkaa.github.io/Neighborhood-Map-Udacity/](https://huschkaa.github.io/Neighborhood-Map-Udacity/)
 
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the (https://classroom.udacity.com/me).
+- Choose grid height and grid width (between 1 and 50 integer).
+- Choose color to paint the canvas and click the squares.
+- Change color as you would like and finish coloring the canvas.
 
 ## Contributing
 

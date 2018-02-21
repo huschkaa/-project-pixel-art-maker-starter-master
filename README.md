@@ -17,4 +17,10 @@ Live Version:
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+A big shout out to Udacity for helping in the development of this application. I highly recommend the program and if you are interested for more details, check out [Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001).
+
+## License
+Memory Game is Copyright © 2017 Andrew Huschka. It is free software, and may be redistributed under the terms specified in the [License](License.txt) file.
+
+## Improvements
+If you have any recommendations on improvements please send them through a git fork and I will review the changes. Based off the change I will let you know if it has been merged.
